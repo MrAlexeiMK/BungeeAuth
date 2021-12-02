@@ -1,0 +1,11 @@
+name: BungeeAuth
+main: argento.murder.Main
+version: 1.0
+api-version: 1.13
+author: Argento
+commands:
+  register:
+    aliases: [reg]
+  login:
+    aliases: [l, log]
+  changepassword:

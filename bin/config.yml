@@ -1,0 +1,41 @@
+mysql:
+  url: "jdbc:mysql://localhost:3306/database?useSSL=false&autoReConnect=true"
+  user: "root"
+  password: ""
+  table: "auth"
+general:
+  lobbies:
+  - "lobby"
+  login_and_register_time_seconds: 60
+  hash_passwords_alg: "SHA-256"
+  auth_map_exist: true
+  max_nick_length: 40
+  min_nick_length: 3
+  min_password_length: 4
+  enable_accounts_per_ip_limiter: true
+  max_accounts_per_ip: 5
+  blocked_passwords:
+  - "1234"
+  - "12345"
+  - "qwerty"
+  incorrect_password_kick: true
+  delay_before_connect_seconds: 3
+language:
+  login: "&ePlease, login with: &c/login [password]"
+  reg: "&ePlease, register with: &c/register [password]"
+  time_up: "&cTime is up"
+  long_nickname: "&cYour nickname too long"
+  short_nickname: "&cYour nickname too short"
+  space_not_allowed: "&cSpaces in nicknames is not allowed"
+  symbol_not_allowed: "&cYour nickname contains forbidden symbols"
+  changepassword: "&eIf you want to reset your password, please "
+  changepassword_click: "&c&lCLICK HERE"
+  reg_correct: "&eUse: &c/reg [password]"
+  login_correct: "&eUse: &c/login [password]"
+  short_password: "&cYour password too short"
+  blocked_password: "&cThis password is not allowed"
+  limit_per_ip: "&cYou reached the limit of accounts for your IP!"
+  successful_reg: "&aSuccessful registration! Please, make sure to remember your password"
+  successful_login: "&aSuccessful login!"
+  incorrect_password: "&cIncorrect password!"
+  registered_already: "&cYou already registered on the server, please login"
