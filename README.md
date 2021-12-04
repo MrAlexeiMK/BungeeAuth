@@ -1,5 +1,6 @@
 # BungeeAuth
- Minecraft authorization plugin on separate BungeeCord server.
+ Minecraft authorization plugin on separate BungeeCord server.  
+ SpigotMC: https://www.spigotmc.org/resources/bungeeauth.86761/  
  
 This plugin adds authorization system on your server. It works on a separate BungeeCord authorization server.
 
